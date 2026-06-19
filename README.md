@@ -24,14 +24,14 @@ project-cnn-vs-transfer-learning/
 ├── README.md
 └── requirements.txt
 
-## 📊 Dataset & Pembagian Data
+## Dataset & Pembagian Data
 Kedua eksperimen menggunakan skala data minimal 200 gambar (100 gambar per kelas) dengan proporsi pembagian data **70% Training, 15% Validation, dan 15% Testing**[cite: 25, 26, 27, 34, 35, 36]:
 * **Dataset CNN From Scratch:** Berasal dari **CIFAR-10** (Kelas Kucing dan Anjing)[cite: 22].
   * *Link Sumber:* [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 * **Dataset Transfer Learning:** Menggunakan kombinasi gambar terbuka **Cats vs Dogs**[cite: 23].
   * *Link Sumber:* [Placedog](https://placedog.net/) & [Placebear](https://placebear.com/)
 
-## 🛠️ Ringkasan Arsitektur Model
+## Ringkasan Arsitektur Model
 
 ### 1. CNN from Scratch
 * **Convolutional Layers:** 3 Lapisan `Conv2D` untuk ekstraksi fitur bertahap[cite: 40].
@@ -44,7 +44,7 @@ Kedua eksperimen menggunakan skala data minimal 200 gambar (100 gambar per kelas
 * **Strategi:** *Feature Extraction* (Seluruh layer bawaan dibekukan/`trainable = False`)[cite: 65].
 * **Top Classifier:** `GlobalAveragePooling2D` -> `Dropout(0.2)` -> `Dense(1, Activation='Sigmoid')`[cite: 43, 45].
 
-## 🚀 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 1. **Clone Repository ini:**
    ```bash
