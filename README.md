@@ -38,7 +38,8 @@ Kedua eksperimen menggunakan skala data minimal 200 gambar (100 gambar per kelas
    ```bash
    git clone [https://github.com/USERNAME_KAMU/project-cnn-vs-transfer-learning.git](https://github.com/USERNAME_KAMU/project-cnn-vs-transfer-learning.git)
    cd project-cnn-vs-transfer-learning
-
+   
+**`requirements.txt`**[cite: 156, 164]
 ```text
 tensorflow>=2.0.0
 numpy
